@@ -1,0 +1,9 @@
+#!/system/bin/sh
+#
+
+insmod /system/vendor/modules/xpad.ko
+insmod /system/vendor/modules/hid-gaff.ko
+insmod /system/vendor/modules/hid-pl.ko
+insmod /system/vendor/modules/hid-sony.ko
+
+echo "done Additional Modules Autoload"
